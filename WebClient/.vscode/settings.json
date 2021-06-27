@@ -1,5 +1,6 @@
 {
     "staticWebApps.appSubpath": "/",
     "staticWebApps.apiSubpath": "/",
-    "staticWebApps.outputSubpath": "dist"
+    "staticWebApps.outputSubpath": "dist",
+    "git.ignoreLimitWarning": true
 }
