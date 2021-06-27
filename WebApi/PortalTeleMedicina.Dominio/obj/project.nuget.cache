@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lAnj5akzRZACfWcUe1JmWZ0o4sIEzlmLnn5cPSjFF55qrUwRjwakX8TW4frmwN14VaVtaG/R+EhXYGwQCO9dQw==",
+  "dgSpecHash": "8JlQC0Fl6ZByp30JZCvM4AMXHvWw0yiZrVSt2X4AYX3NsdUA7YaWRNLSKpdUCndaSU3MI/1O6lyx5S2O5SVayA==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\Estudos\\PortalTelemedicina\\PortalTeleMedicina\\PortalTeleMedicina.Dominio\\PortalTeleMedicina.Dominio.csproj",
+  "projectFilePath": "D:\\Projetos\\Estudos\\PortalTelemedicina-Teste\\PortalTeleMedicina\\WebApi\\PortalTeleMedicina.Dominio\\PortalTeleMedicina.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marcc\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\marcc\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

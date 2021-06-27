@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jFLUbsrT6DUQ6zkLX3H6Q/dax9zB9V7gDioc2GE47aUctU5MvbVbP0ERz9uInjknUdxiePDYk/W7V0lWOJrLMw==",
+  "dgSpecHash": "tqVc8KWeQVpZ0l8yDE6XYFj0zG6v+PJM4cZhbloI/9D64yXDl2fYsalmCyOfKyjQTpyi0LB8EKTNu+I/WQSmZA==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\Estudos\\PortalTelemedicina\\PortalTeleMedicina\\PortalTeleMedicina.Infra\\PortalTeleMedicina.Infra.csproj",
+  "projectFilePath": "D:\\Projetos\\Estudos\\PortalTelemedicina-Teste\\PortalTeleMedicina\\WebApi\\PortalTeleMedicina.Infra\\PortalTeleMedicina.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marcc\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\marcc\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

@@ -48,7 +48,10 @@ namespace PortalTeleMedicina.WebAPI
                 });
             });
 
-            services.AddDbContext<RepositorioContext>(options => options.UseSqlServer(Configuration.GetConnectionString("LocalConnection")));
+            //services.AddDbContext<RepositorioContext>(options => options.UseSqlServer(Configuration.GetConnectionString("LocalConnection")));
+            services.AddDbContext<RepositorioContext>(options => options.UseSqlServer(Configuration.GetConnectionString("AzureConnection")));
+            
+            //services.AddDbContext<RepositorioContext>();
 
             services.AddScoped(typeof(IServicoCrud<,>), typeof(ServicoGenericoCrud<,>));
             services.AddScoped(typeof(IRepositorioCrud<,>), typeof(RepositorioGenericoCrud<,>));
@@ -95,8 +98,10 @@ namespace PortalTeleMedicina.WebAPI
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, RepositorioContext context)
         {
+            context.Database.Migrate();
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

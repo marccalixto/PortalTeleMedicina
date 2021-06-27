@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace PortalTeleMedicina.Infra.Repositorio
 {
@@ -12,7 +13,8 @@ namespace PortalTeleMedicina.Infra.Repositorio
             if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder.UseLazyLoadingProxies();
-                optionsBuilder.UseSqlServer();
+                //optionsBuilder.UseSqlServer(@"Server=(LocalDb)\\MSSQLLocalDB; Database=TesteMarceloCalixto;Integrated Security=True;");
+                optionsBuilder.UseSqlServer(@"Server=tcp:portaltelemedicinawebapidbserver.database.windows.net,1433;Initial Catalog=PortalTeleMedicina.WebAPI_db;Persist Security Info=False;User ID=calixto;Password=Sisdba123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
                 base.OnConfiguring(optionsBuilder);
             }
         }
