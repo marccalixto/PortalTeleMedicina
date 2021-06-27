@@ -37,7 +37,7 @@ namespace PortalTeleMedicina.WebAPI
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "PortalTeleMedicina.WebAPI",
+                    Title = "WebAPI",
                     Description = "Implementação pedida como teste para avaliação de conhecimento, para cargo de Desenvolver FullStack",
                     Contact = new OpenApiContact
                     {
